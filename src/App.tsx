@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-     <BrowserRouter>
+     <BrowserRouter basename="final-_project">
         <Routes>
            <Route path="/" element={<MarketingWeb />} />
            <Route path="/login" element={<Login />} />
